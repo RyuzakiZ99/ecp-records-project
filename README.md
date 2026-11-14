@@ -1,6 +1,13 @@
 # ECP Records
 
-## Python
+## Projeto
+
+Fonte dos dados: [kaggle_top-spotify-songs-2023](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023)
+
+Proposição inicial do projeto: [`proposition.md`](./proposition.md)
+Roteiro do projeto: [`roadmap.md`](./roadmap.md)
+
+## Execução
 
 No terminal, dentro da pasta do projeto:
 
