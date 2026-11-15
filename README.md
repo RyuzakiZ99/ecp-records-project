@@ -2,27 +2,68 @@
 
 ## Projeto
 
-Fonte dos dados: [kaggle_top-spotify-songs-2023](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023)
+Projeto de análise de dados musicais utilizando informações sobre as músicas mais populares do Spotify em 2023.
 
-Proposição inicial do projeto: [`proposition.md`](./docs/proposition.md)
+**Fonte dos dados:** [Top Spotify Songs 2023 – Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023)
 
-Roteiro do projeto: [`roadmap.md`](./docs/roadmap.md)
+**Documentação:**
+- [Proposição inicial](./docs/proposition.md)
+- [Roteiro do projeto](./docs/roadmap.md)
+- [Dicionário de dados](./docs/data.md)
 
-Dicionário dos daods: [`data.md`](./docs/data.md)
 
-## Execução
+## Configuração do ambiente
 
-No terminal, dentro da pasta do projeto:
+O projeto utiliza um ambiente virtual Python (`.venv`) para isolar suas dependências.
 
-```bash
-make activate
+É necessário ter o Python 3.10 instalado.
+
+### Windows (PowerShell)
+
+Na raiz do projeto, execute:
+
+```powershell
+.\scripts\windows\setup_env.ps1
 ```
 
-O comando abre um novo shell Bash com o ambiente `py_env` ativo. Para sair desse
-shell e retornar ao terminal anterior:
+Para ativar o ambiente posteriormente:
 
-```bash
-exit
+```powershell
+.\.venv\Scripts\Activate.ps1
 ```
 
-Para desativar o ambiente sem sair do shell, use `deactivate`.
+### Linux
+
+Na raiz do projeto, execute:
+
+```bash
+chmod +x scripts/linux/setup_env.sh
+./scripts/linux/setup_env.sh
+```
+
+Para ativar o ambiente posteriormente:
+
+```bash
+source .venv/bin/activate
+```
+
+## Executando os notebooks
+
+Após configurar e ativar o ambiente, execute:
+
+```bash
+jupyter notebook
+```
+
+Selecione o kernel `Python (ECP-Records)` ao abrir um notebook.
+
+## Dependências
+
+As bibliotecas e suas respectivas versões estão especificadas em [`requirements.txt`](./requirements.txt).
+
+Para instalar as dependências manualmente:
+
+```bash
+pip install -r requirements.txt
+```
+

@@ -1,0 +1,4 @@
+row_id,csv_line,track_name,column,issue,raw_value
+574,576,Love Grows (Where My Rosemary Goes),streams,valor não numérico (virou NaN),BPM110KeyAModeMajorDanceability53Valence75Energy69Acousticness7Instrumentalness0
+667,669,"Cayï¿½ï¿½ La Noche (feat. Cruz Cafunï¿½ï¿½, Abhir Hathi, Bejo, EL IMA)",artist_count,artist_count difere do nº de nomes em artist(s)_name,7
+742,744,Vampiro,artist_count,artist_count difere do nº de nomes em artist(s)_name,3
