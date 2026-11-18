@@ -1,0 +1,9 @@
+figura,legenda
+fig_target.png,n=952. Assimetria de streams = 2.00; de log1p(streams) = -1.18. A escala log reduz a assimetria e aproxima a normalidade; modelar em log.
+fig_features_dist.png,"n=952. Maior proporção de outliers (IQR) em speechiness_% (14.3%). Percentuais limitados a 0-100 tendem a assimetria; outliers são mantidos, não removidos."
+fig_spearman_target.png,"n=952, 458 clusters. Sinal após Holm (p<0.05): released_year, artist_count."
+fig_corr_matrix.png,n=952. Par mais correlacionado: energy_% x acousticness_% (|rho|=0.48).
+fig_scatter_grid.png,"n=952. Linha vermelha: média de log1p(streams) por decil do atributo (barras = ±1,96 EP, ingênuo, sem agrupar por artista). Procurar curvatura e efeito de released_year."
+fig_categorical.png,n=952. Kruskal-Wallis com permutação por linha + Holm: release_period com diferença (p_holm<0.05). p por linha é otimista (artistas repetem); ver o IC por cluster de mode abaixo.
+fig_artist_conc.png,"n=952 músicas, 458 artistas. Top 10 artistas cobrem 22.9% das linhas; top 50 cobrem 44.3%. Gini = 0.44."
+fig_robustness.png,"Spearman com log1p(streams) por cenário. n por cenário: todas: 952, periodo=pre-2000: 48, periodo=2000-2017: 125, periodo=2018-2021: 202, periodo=2022: 402, periodo=2023: 175, sem_top10_artistas: 734, sem_top20_artistas: 661."
