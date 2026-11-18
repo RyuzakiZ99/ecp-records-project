@@ -1,0 +1,3 @@
+figura,legenda
+fig_mae_folds.png,"5 folds x 3 repetições, n=952. Menor MAE médio: artista: ridge B (0.637); musica: ridge C (0.625)."
+fig_gain_baseline.png,"Ganho percentual de MAE sobre a mediana do treino (média dos folds). Valores perto de 0 ou negativos indicam pouco sinal preditivo, resultado válido."
