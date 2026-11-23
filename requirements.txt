@@ -1,5 +1,4 @@
 # Versões fixas, escolhidas para Python 3.10 (py_env do projeto).
-# O shap só entra na Etapa 4.
 numpy==1.26.4
 pandas==2.2.3
 scipy==1.13.1
@@ -10,3 +9,5 @@ statsmodels==0.14.4
 pyarrow==17.0.0
 jupyter==1.1.1
 pytest==8.3.3
+# Etapa 4 (interpretabilidade): TreeExplainer e LinearExplainer.
+shap==0.49.1

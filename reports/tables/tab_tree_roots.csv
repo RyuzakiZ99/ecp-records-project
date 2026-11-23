@@ -1,0 +1,5 @@
+cenario,condicao,n_arvores,pct
+artista,release_period = 2023,13,86.66666666666667
+artista,release_period = 2000-2017,2,13.333333333333334
+musica,release_period = 2023,14,93.33333333333333
+musica,release_period = 2000-2017,1,6.666666666666667
