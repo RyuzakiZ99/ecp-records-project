@@ -25,6 +25,10 @@ Existe uma fórmula global para fazer música?
 
 Minha hipótese é que existe uma combinação de fatores musicais (bpm, root note, etc), combinado com 'efeito fama' que leva ao sucesso.
 
+## Q5.5 - Como montar a modelagem e análise para responder à pergunta:
+
+Nós queremos tentar usar ao máximo possível as categorias musicais (dancability_%, valence_%, liveliness_%) do dataset, e não depender tanto de atributos não relacionados à música em sí, como ano de lançamento da música e/ou idade da música por exemplo.
+
 ## Q6 - Possíveis limitações na hipótese e/ou falhas nas suposições:
 
 A principal limitação na minha hipótese é que essa 'fórumla mágica' para produção de música pode não existir. Além disso, atributos musicais são não-lineares e podem não apresentar uma correlação definida. Outro grande risco é que os dados são puramente do ano de 2023, e por causa disso pode não ser uma fórmula generalizada para outros períodos.
